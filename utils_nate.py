@@ -52,10 +52,10 @@ daily_temperatures_farenheit: list = [19.2, 23.5, 33.1, 28.9, 35.7]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: Replace these variable names with the variable name of your own numeric list
-min_score: float = min(client_satisfaction_scores)  
-max_score: float = max(client_satisfaction_scores)  
-mean_score: float = statistics.mean(client_satisfaction_scores)  
-stdev_score: float = statistics.stdev(client_satisfaction_scores)
+min_score: float = min(daily_temperatures_farenheit)  
+max_score: float = max(daily_temperatures_farenheit)  
+mean_score: float = statistics.mean(daily_temperatures_farenheit)  
+stdev_score: float = statistics.stdev(daily_temperatures_farenheit)
 
 # Use a Python formatted string (f-string) to show information
 # TODO: Modify the text in the byline to fit your information
@@ -68,10 +68,10 @@ Is Pet Friendly:  {is_pet_friendly}
 Age:         {age}
 Classes Available:             {classes_available}
 Daily Temp Farenheit: {daily_temperatures_farenheit}
-Minimum Satisfaction Score: {min_score}
-Maximum Satisfaction Score: {max_score}
-Mean Satisfaction Score: {mean_score:.2f}
-Standard Deviation of Satisfaction Scores: {stdev_score:.2f}
+Minimum Temperature: {min_score}
+Maximum Temperature: {max_score}
+Mean Temperature: {mean_score:.2f}
+Standard Deviation of Temperature: {stdev_score:.2f}
 """
 
 #####################################
