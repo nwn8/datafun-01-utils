@@ -28,22 +28,27 @@ import statistics  # provides mean(), stdev() and more....
 # declare a boolean variable (has a value True or False)
 # TODO: Add another or replace this with your own boolean variable
 has_international_clients: bool = True
+is_pet_friendly: bool = False
 
 # declare an integer variable 
 # TODO: Add or replace this with your own integer variable
 years_in_operation: int = 10
+age: int = 66
 
 # declare a floating point variable
 # TODO: Add or replace this with your own floating point variable
 average_client_satisfaction: float = 4.7
+average_student_gpa: float = 3.1
 
 # declare a list of strings
 # TODO: Add or replace this with your own list  
 skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
+classes_available: list = ["Calculus","English","Biology"]
 
 # declare a list of numbers so we can illustrate statistics skills
 # TODO: Add or replace this with your own numeric list  
 client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
+daily_temperatures_farenheit: list = [19.2, 23.5, 33.1, 28.9, 35.7]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: Replace these variable names with the variable name of your own numeric list
