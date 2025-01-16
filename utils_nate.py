@@ -64,10 +64,10 @@ byline: str = f"""
 ---------------------------------------------------------
 Stellar Analytics: Delivering Professional Insights
 ---------------------------------------------------------
-Has International Clients:  {has_international_clients}
-Years in Operation:         {years_in_operation}
-Skills Offered:             {skills_offered}
-Client Satisfaction Scores: {client_satisfaction_scores}
+Is Pet Friendly:  {is_pet_friendly}
+Age:         {age}
+Classes Available:             {classes_available}
+Daily Temp Farenheit: {daily_temperatures_farenheit}
 Minimum Satisfaction Score: {min_score}
 Maximum Satisfaction Score: {max_score}
 Mean Satisfaction Score: {mean_score:.2f}
