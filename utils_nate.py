@@ -1,11 +1,11 @@
 """
 Module: utils_nate
 
-Purpose: Reusable Module for My Analytics Projects
+Purpose: To gain familiarity with variables and functions in Python
 
-Description: This module provides a byline for my analytics projects. 
-When we work hard to write useful code, we want it to be reusable.
-A good byline could be used in every Python analytics project we do.
+Description: 
+This module will import a statistics library, create variables and lists, use the statistics library and run functions.  This is basic programming format to get familiar with the various
+data types and syntax of python. 
 
 Author: Nate Sloss
 
