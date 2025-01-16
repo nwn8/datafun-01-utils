@@ -1,11 +1,11 @@
 """
 Module: utils_nate
 
-Purpose: To gain familiarity with variables and functions in Python
+Purpose: Reusable Module for My Analytics Projects
 
-Description: 
-This module will import a statistics library, create variables and lists, use the statistics library and run functions.  This is basic programming format to get familiar with the various
-data types and syntax of python. 
+Description: This module provides a byline for my analytics projects. 
+When we work hard to write useful code, we want it to be reusable.
+A good byline could be used in every Python analytics project we do.
 
 Author: Nate Sloss
 
@@ -33,7 +33,7 @@ is_pet_friendly: bool = False
 # declare an integer variable 
 # TODO: Add or replace this with your own integer variable
 years_in_operation: int = 10
-age: int = 66
+barometric_pressure: int = 66
 
 # declare a floating point variable
 # TODO: Add or replace this with your own floating point variable
@@ -43,7 +43,7 @@ average_student_gpa: float = 3.1
 # declare a list of strings
 # TODO: Add or replace this with your own list  
 skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
-classes_available: list = ["Calculus","English","Biology"]
+pet_types: list = ["Dogs","Cats","Reptiles","Monkeys"]
 
 # declare a list of numbers so we can illustrate statistics skills
 # TODO: Add or replace this with your own numeric list  
@@ -62,14 +62,14 @@ stdev_score: float = statistics.stdev(daily_temperatures_farenheit)
 # TODO: Modify the variables in the byline to use your variable names
 byline: str = f"""
 ---------------------------------------------------------
-Stellar Analytics: Delivering Professional Insights
+Stellar Analytics: Nates Weather Predictions for Pets
 ---------------------------------------------------------
-Is Pet Friendly:  {is_pet_friendly}
-Age:         {age}
-Classes Available:             {classes_available}
+Is Pet Friendly this Week:  {is_pet_friendly}
+Barometric Pressure: {barometric_pressure}
+Pet Types:  {pet_types}
 Daily Temp Farenheit: {daily_temperatures_farenheit}
-Minimum Temperature: {min_score}
-Maximum Temperature: {max_score}
+Minimum Temp: {min_score}
+Maximum Temp: {max_score}
 Mean Temperature: {mean_score:.2f}
 Standard Deviation of Temperature: {stdev_score:.2f}
 """
